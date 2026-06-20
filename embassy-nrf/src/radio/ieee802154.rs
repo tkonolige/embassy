@@ -15,7 +15,7 @@ pub use crate::pac::radio::vals::State as RadioState;
 use crate::radio::Instance;
 
 /// Default (IEEE compliant) Start of Frame Delimiter
-pub const DEFAULT_SFD: u8 = 0xA7;
+pub const DEFAULT_SFD: u8 = 0xB6;
 
 // TODO expose the other variants in `pac::CCAMODE_A`
 /// Clear Channel Assessment method
